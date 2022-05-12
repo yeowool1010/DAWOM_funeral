@@ -26,6 +26,7 @@ a {
     margin-left: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .nav-bar {
     display: flex;
@@ -44,6 +45,21 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 }
+/* 스크린 크기 축소시 네비 설정 */
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    
+}
+
+
+/* 스크린 크기 축소시 네비 설정 끝 */
+
+
 
 /* 헤더 로고 및 네비 끝 */
 
@@ -264,9 +280,12 @@ a {
     transform: rotateX(-90deg);
   }
   
-
-.item-89-box {
-    height: 800px;
+hr {
+    color: #369;
+    opacity: 50%;
+}
+.item-big-box {
+    height: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -274,6 +293,7 @@ a {
 .item-title {
     font-size: 20pt;
     margin-bottom: 10px;
+    margin-top: 90px;
 }
 .item-line {
     width: 40%;
@@ -289,6 +309,7 @@ table.item-table {
     border-collapse: collapse;
     text-align: left;
     line-height: 1.5;
+    z-index: 1;
   
 }
 table.item-table thead th {
@@ -300,7 +321,7 @@ table.item-table thead th {
     border-bottom: 3px solid #036;
 }
 table.item-table tbody th {
-    width: 200px;
+    width: 230px;
     font-size: 15pt;
     padding: 10px;
     font-weight: bold;
@@ -311,8 +332,18 @@ table.item-table tbody th {
 table.item-table td {
     width: 600px;
     font-size: 15pt;
-    vertical-align: top;
+    vertical-align: inherit;
     border-bottom: 1px solid #ccc;
+}
+
+.item-info {
+    width: 800px;
+    height: 130px;
+    background-color: antiquewhite;
+    z-index: 0;
+}
+.item-info-text {
+    font-weight: 800;
 }
 
 
