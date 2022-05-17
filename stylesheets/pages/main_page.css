@@ -14,11 +14,12 @@ a {
     left: 0;
     right: 0;
 
-    background-color: rgba(255,255,255,0.5);
+    background-color: white;
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 .logo-box {
     width: 200px;
@@ -71,6 +72,7 @@ a {
     background-position: center center;
     display: flex;
     justify-content: flex-end;
+    z-index: 0;
 }
 .main-text-box {
     width: 600px;
@@ -101,12 +103,13 @@ a {
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
+    z-index: 0;
   }
 
   .call-btn {
     background: rgb(255,151,0);
     border: none;
-    z-index: 1;
+    z-index: 0;
   }
   .call-btn:after {
     position: absolute;
@@ -145,8 +148,8 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
+    z-index: 0;
 }
-
 .item-main-title {
     font-size: 30pt;
     margin-top: 30px;
@@ -289,6 +292,7 @@ hr {
     display: flex;
     flex-flow: column;
     align-items: center;
+    z-index: 0;
 }
 .item-title {
     font-size: 20pt;
@@ -309,7 +313,7 @@ table.item-table {
     border-collapse: collapse;
     text-align: left;
     line-height: 1.5;
-    z-index: 1;
+    z-index: 0;
   
 }
 table.item-table thead th {
