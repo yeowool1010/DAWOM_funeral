@@ -20,6 +20,7 @@ a {
     display: flex;
     justify-content: space-between;
     z-index: 1;
+    box-shadow: 0px 5px 20px gray;
 }
 .logo-box {
     width: 200px;
@@ -371,6 +372,8 @@ table.item-table td {
     height: 300px;
     display: flex;
     justify-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 100px;
 }
 .company-text {
     display: flex;
@@ -391,6 +394,8 @@ table.item-table td {
 }
 
 table.pay-later-table {
+  width: 800px;
+
     border-collapse: collapse;
     text-align: left;
     line-height: 1.5;
