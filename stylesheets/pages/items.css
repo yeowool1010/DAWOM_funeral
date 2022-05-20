@@ -1,3 +1,4 @@
+
 .item-main {
     height: 300px;
     display: flex;
@@ -193,6 +194,7 @@ table.item-table td {
     font-size: 15pt;
     vertical-align: inherit;
     border-bottom: 1px solid #ccc;
+    padding: 10px;
 }
 
 .item-info {

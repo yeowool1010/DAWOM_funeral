@@ -1,0 +1,75 @@
+
+.company-info {
+    height: 1000px;
+    display: flex;
+    flex-flow: column;
+}
+.company-title-box {
+    height: 160px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    z-index: 0;
+}
+.company-text-box {
+    height: 300px;
+    display: flex;
+    justify-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.company-text {
+    display: flex;
+    flex-flow: column;
+    margin-left: 50px;
+}
+.company-img {
+   width: 450px;
+    height: 300px;
+}
+
+.pay-later-title-box {
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    z-index: 0;
+}
+
+table.pay-later-table {
+  width: 800px;
+
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 10px;
+  }
+  table.pay-later-table thead th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #e7708d;
+    margin: 20px 10px;
+  }
+  table.pay-later-table tbody th {
+    width: 150px;
+    padding: 10px;
+  }
+  table.pay-later-table td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+  }
+  table.pay-later-table .even {
+    background: #fdf3f5;
+  }
+
+.company-info-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

@@ -1,6 +1,7 @@
 @import url("./pages/main_page.css");
 @import url("./pages/header.css");
 @import url("./pages/items.css");
+@import url("./pages/company-info.css");
 
 @font-face {
     font-family: 'WooridaumB';
