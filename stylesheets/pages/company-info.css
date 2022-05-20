@@ -1,11 +1,14 @@
 
 .company-info {
     height: 1000px;
+    width: 100%;
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 .company-title-box {
     height: 160px;
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -13,6 +16,7 @@
 }
 .company-text-box {
     height: 300px;
+    width: 1000px;
     display: flex;
     justify-items: flex-end;
     justify-content: space-around;
@@ -21,7 +25,9 @@
 .company-text {
     display: flex;
     flex-flow: column;
-    margin-left: 50px;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 15pt;
 }
 .company-img {
    width: 450px;
@@ -72,4 +78,5 @@ table.pay-later-table {
   display: flex;
   flex-flow: column;
   align-items: center;
+  width: 100%;
 }
