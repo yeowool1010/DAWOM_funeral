@@ -1,2 +1,10 @@
 @import url("./pages/main_page.css");
+@import url("./pages/header.css");
+@import url("./pages/items.css");
 
+@font-face {
+    font-family: 'WooridaumB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/WooridaumB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
