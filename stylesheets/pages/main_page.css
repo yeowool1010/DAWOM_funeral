@@ -10,25 +10,28 @@ a {
 }
 
 
-/* 메인페이지 */
 .main-paig {
-    height: 800px;
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/chrysanthemum.jpg);
+    height: 330px;
+    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/family.jpg);
     background-size: auto;
     background-position: center center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     z-index: 0;
+    margin-top: 100px;
 }
 .main-text-box {
     width: 600px;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
-    right: 10px;
-    color: white;
+    color: #001D6E;
     font-size: 17pt;
+    margin-left: 30px;
+}
+.main-text {
+  margin: 15px;
 }
 
 .call-btn {
@@ -50,6 +53,7 @@ a {
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
     z-index: 0;
+    margin-left: 20px;
   }
 
   .call-btn {
@@ -86,4 +90,3 @@ a {
     top: 2px;
   }
 
-/* 메인페이지 끝 */

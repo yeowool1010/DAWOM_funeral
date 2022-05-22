@@ -1,17 +1,19 @@
 
-.item-main {
-    height: 300px;
+/* 버튼 전 스타일 */
+/* 
+.btn-item-main {
+    height: 400px;
     display: flex;
     flex-flow: column;
     align-items: center;
     z-index: 0;
-}
-.item-main-title {
+} */
+/* .btn-item-main-title {
     font-size: 30pt;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 10px;
-}
-.line {
+} */
+/* .line {
     width: 60%;
     height: 5px;
     border-radius: 100%;
@@ -20,22 +22,20 @@
     margin-left: 30px;
     margin-bottom: 50px;
 }
-.item-box {
+.btn-item-box {
     height: 200px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-left: 200px;
     margin-right: 200px;
-}
-
-.item {
+} */
+/* .item {
     width: 130px;
     height: 116px;
     display: flex;
     align-self: center;
     flex-flow: column;
-    /* border: solid black; */
 }
 .item-small-box-title {
     display: none;
@@ -67,6 +67,7 @@
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
+    font-family: 'WooridaumB';
   }
 
 .item-small-box-img {
@@ -137,8 +138,11 @@
     -webkit-transform: rotateX(-90deg);
     -moz-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
-  }
+  } */
   
+
+
+
 hr {
     color: #369;
     opacity: 50%;

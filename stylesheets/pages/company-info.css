@@ -29,6 +29,10 @@
     margin: 0;
     font-size: 15pt;
 }
+.text-point{
+    font-size: 20pt;
+    color: blue;
+}
 .company-img {
    width: 450px;
     height: 300px;
