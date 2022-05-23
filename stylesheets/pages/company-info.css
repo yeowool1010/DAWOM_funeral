@@ -1,18 +1,26 @@
 
 .company-info {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 .company-title-box {
-    height: 160px;
+    height: 120px;
     width: 100%;
+    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/hand-clouds.jpg);
+    background-size: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
+    box-shadow: 0px 5px 20px gray;
+    margin-bottom: 50px;
     z-index: 0;
+}
+.company-name {
+    color: #fdf3f5;
+    font-size: 20pt;
 }
 .company-text-box {
     height: 300px;
