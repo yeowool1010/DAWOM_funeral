@@ -1,145 +1,4 @@
 
-/* 버튼 전 스타일 */
-/* 
-.btn-item-main {
-    height: 400px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    z-index: 0;
-} */
-/* .btn-item-main-title {
-    font-size: 30pt;
-    margin-top: 100px;
-    margin-bottom: 10px;
-} */
-/* .line {
-    width: 60%;
-    height: 5px;
-    border-radius: 100%;
-    opacity: 50%;
-    background-color: grey;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
-.btn-item-box {
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 200px;
-    margin-right: 200px;
-} */
-/* .item {
-    width: 130px;
-    height: 116px;
-    display: flex;
-    align-self: center;
-    flex-flow: column;
-}
-.item-small-box-title {
-    display: none;
-}
-.shadow {
-    width: 112px;
-    height: 11px;
-    border-radius: 50%;
-    background-color: gray;
-    filter: blur(4px);
-    opacity: 60%;
-    margin-left: 12px;
-}
-
-.item-small-box-img {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    font-family: 'WooridaumB';
-  }
-
-.item-small-box-img {
-    position: relative;
-    right: 20px;
-    bottom: 20px;
-    border:none;
-    box-shadow: none;
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    -webkit-perspective: 230px;
-    perspective: 230px;
-  }
-  .item-small-box-img span {
-    background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-    display: block;
-    position: absolute;
-    width: 130px;
-    height: 40px;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    border-radius: 5px;
-    margin:0;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-  }
-  .item-small-box-img span:nth-child(1) {
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .item-small-box-img span:nth-child(2) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .item-small-box-img:hover span:nth-child(1) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-  }
-  .item-small-box-img:hover span:nth-child(2) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-   color: transparent;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-  } */
-  
 .item-box {
     height: 330px;
     background-size: auto;
@@ -148,41 +7,44 @@
     grid-template-columns: 25% 25% 25% 25%;
     margin-bottom: 50px;
 }
-.item-inner {
+.item-name {
+    font-family: 'WooridaumB';
+    font-size: 20pt;
+}
+.item-name-hover {
+    display: none;
+}
+.hover:hover .item-name-hover {
+    display: block;
+}
+.hover:hover .item-name {
+    display: none;
+}
+.item-name-hover {
+    font-family: 'WooridaumB';
+}
+.itme-name-hover-text {
+    font-size: 10pt;
+}
+.btn-item-price {
+    font-size: 15pt;
+}
+.item-inner .hover {
     height: 100%;
     background-size: auto;
     font-family: 'WooridaumB';
     cursor: pointer;
     transition: all .3s ease 
 }
-.item-inner :hover {
-    color:#39d9c8; transition:all .3s ease
+/* .item-inner :hover {
+    color:#39d9c8; 
+    transition:all .3s ease
 }
-.item-inner > span { position:relative }
+.item-inner > span { 
+    position:relative 
+} */
 
-/*밑줄넣기 부분*/
-.item-inner > span::after {
-  content: '';
-  width: 0%;
-  left: 50%;
-  height: 1px;
-  display: block;
-  position: absolute;
-  margin-top: 3px;
-  border-bottom: 2px solid #39d9c8;
-  transition:all .3s ease;
-}
-.item-inner:hover > span::after {
-  content: '';
-  width: 100%;
-  left: 0px;
-  height: 1px;
-  display: block;
-  position: absolute;
-  margin-top: 3px;
-  border-bottom: 2px solid #39d9c8;
-  transition:all .3s ease;
-}
+
 
 .item-inner_1 {
     background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_1.jpg);
@@ -224,12 +86,12 @@
 .item-name-box {
     height: 120px;
     width: 100%;
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/flower-ga6.jpg);
+    /* background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/flower-ga6.jpg); */
     background-size: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
-    box-shadow: 0px 5px 20px gray;
+    /* box-shadow: 0px 5px 20px gray; */
     margin-bottom: 50px;
 }
 .item-name {
