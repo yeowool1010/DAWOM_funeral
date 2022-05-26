@@ -24,7 +24,7 @@
     font-family: 'WooridaumB';
 }
 .itme-name-hover-text {
-    font-size: 10pt;
+    font-size: 15pt;
 }
 .btn-item-price {
     font-size: 15pt;
@@ -86,7 +86,7 @@
 .item-name-box {
     height: 120px;
     width: 100%;
-    /* background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/flower-ga6.jpg); */
+    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/tilte-back.png);
     background-size: auto;
     display: flex;
     flex-flow: column;
