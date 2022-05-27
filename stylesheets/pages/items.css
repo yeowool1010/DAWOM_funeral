@@ -13,12 +13,18 @@
 }
 .item-name-hover {
     display: none;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding: 62px;
 }
 .hover:hover .item-name-hover {
     display: block;
+    transition-duration: 3s;
+    
 }
 .hover:hover .item-name {
     display: none;
+    transition-duration: 3s;
 }
 .item-name-hover {
     font-family: 'WooridaumB';
@@ -27,7 +33,7 @@
     font-size: 15pt;
 }
 .btn-item-price {
-    font-size: 15pt;
+    font-size: 30pt;
 }
 .item-inner .hover {
     height: 100%;
@@ -151,4 +157,11 @@ table.item-table td {
     font-family: 'WooridaumB';
     line-height: 15pt;
     font-size: 11pt;
+}
+
+.scroll-container {
+    scroll-behavior: smooth;
+    display: block;
+    margin: auto;
+    overflow-y: scroll;
 }
