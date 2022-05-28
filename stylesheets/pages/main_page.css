@@ -3,6 +3,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'WooridaumB';
+    display: block;
 }
 a {
     text-decoration: none;
