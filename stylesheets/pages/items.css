@@ -165,7 +165,58 @@ table.item-table td {
     margin: auto;
     overflow-y: scroll;
 }
-#itme_1 {
+/* #itme_1 {
     height: 100%;
     padding-top:20px;
-}
+} */
+
+
+.top-btn {
+    margin-top: 20px;
+  }
+  a.button {
+    display: block;
+    position: relative;
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+  }
+  .btnLightBlue {
+    background: #5DC8CD;
+  }
+  .btnFloat {
+    background: none;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+  .btnFloat:before {
+    content: '위로가기';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    transition: all 0.2s ;
+  }
+  .btnLightBlue.btnFloat:before {
+    background: #5DC8CD;
+  }
+  .btnFloat:before {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+  }
+  .btnFloat:hover:before {
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
+  }
