@@ -12,7 +12,7 @@ a {
     text-decoration: none;
     color: black;
 }
-#test_obj {
+#move-nav {
   position: absolute;
   width: 70px;
   height: 350px;
@@ -22,6 +22,41 @@ a {
   border: 1px solid #dddddd;
   background-color: #ddd;
 }
+.move-nav-btn {
+  width: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.move-nav-btn:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.move-nav-btn:focus {
+  outline: none;
+}
+.move-nav-btn {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
 .main-paig {
     height: 330px;
     background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/family.jpg);

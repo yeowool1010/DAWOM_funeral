@@ -1,15 +1,15 @@
 $(document).ready(function () {
-    var tmp = parseInt($("#test_obj").css('top'));
+    var tmp = parseInt($("#move-nav").css('top'));
     console.log(tmp)
     console.log(parseInt("-3"))
-    console.log($("#test_obj").css('top'))
-    console.log(Number($("#test_obj").css('top')))
+    console.log($("#move-nav").css('top'))
+    console.log(Number($("#move-nav").css('top')))
 
     $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
         var obj_position = scrollTop + tmp + "px";
 
-        $("#test_obj").stop().animate({
+        $("#move-nav").stop().animate({
             "top": obj_position
         }, 500);
 
