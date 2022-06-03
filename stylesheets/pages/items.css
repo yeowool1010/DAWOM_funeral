@@ -53,17 +53,17 @@
 
 
 .item-inner_1 {
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_1.jpg);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_1.jpg);
 }
 
 .item-inner_2 {
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_2.jpg);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_2.jpg);
 }
 .item-inner_3 {
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_3.jpg);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_3.jpg);
 }
 .item-inner_4 {
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_4.jpg);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/item_4.jpg);
 }
 
 
@@ -92,7 +92,7 @@
 .item-name-box {
     height: 120px;
     width: 100%;
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/tilte-back.png);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/tilte-back.png);
     background-size: auto;
     display: flex;
     flex-flow: column;

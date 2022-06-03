@@ -9,7 +9,7 @@
 .company-title-box {
     height: 120px;
     width: 100%;
-    background-image: url(/勉強/開発勉強/git/BA-LUN_funeral/assets/img/hand-clouds.jpg);
+    background-image: url(./勉強/開発勉強/git/BA-LUN_funeral/assets/img/hand-clouds.jpg);
     background-size: auto;
     display: flex;
     flex-flow: column;
