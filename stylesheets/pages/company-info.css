@@ -9,8 +9,8 @@
 .company-title-box {
     height: 120px;
     width: 100%;
-    background-image: url(https://postfiles.pstatic.net/MjAyMjA2MDNfODEg/MDAxNjU0MjUyNTQ0MzM0.JVKpSss1HE3Ef48Bop8yl4nnC1lr96HqeQz7ywRLtp0g.IE1a_4EGjoEHGftpIwf1aNw-3xz2HJqV21h8msEYkHog.JPEG.qyoong3579/death-gaded37401_1920.jpg?type=w773);
-    background-size: auto;
+    background-image: url(https://postfiles.pstatic.net/MjAyMjA2MDNfMjMx/MDAxNjU0MjUzNjA1NjU5.dU_U0JHLooi1YiwpAvNOlUg0YABpFscYcjgc8FAp3fIg.tZQIuWUKEQ1xPNE2W20CF2osonn3cfVWXYs71HubHgYg.JPEG.qyoong3579/clouds03.jpg?type=w773);
+    background-size: cover;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -19,7 +19,7 @@
     z-index: 0;
 }
 .company-name {
-    color: #fdf3f5;
+    /* color: #fdf3f5; */
     font-size: 20pt;
 }
 .company-text-box {
