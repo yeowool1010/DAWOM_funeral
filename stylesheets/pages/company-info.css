@@ -9,7 +9,7 @@
 .company-title-box {
     height: 120px;
     width: 100%;
-    background-image: url(https://postfiles.pstatic.net/MjAyMjA2MDNfMjMx/MDAxNjU0MjUzNjA1NjU5.dU_U0JHLooi1YiwpAvNOlUg0YABpFscYcjgc8FAp3fIg.tZQIuWUKEQ1xPNE2W20CF2osonn3cfVWXYs71HubHgYg.JPEG.qyoong3579/clouds03.jpg?type=w773);
+    background-image: url("https://postfiles.pstatic.net/MjAyMjA2MDNfMjMx/MDAxNjU0MjUzNjA1NjU5.dU_U0JHLooi1YiwpAvNOlUg0YABpFscYcjgc8FAp3fIg.tZQIuWUKEQ1xPNE2W20CF2osonn3cfVWXYs71HubHgYg.JPEG.qyoong3579/clouds03.jpg?type=w773");
     background-size: cover;
     display: flex;
     flex-flow: column;
