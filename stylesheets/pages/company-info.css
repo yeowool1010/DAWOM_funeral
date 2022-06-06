@@ -10,7 +10,7 @@
     height: 120px;
     width: 100%;
     /* background-image: url("https://github.io/BA-LUN_funeral/assets/img/${list[idx]}"); */
-    element.style.background: `url("https://clouds03.github.io/BA-LUN_funeral/assets/img/${list[idx]}")`
+    element.style.background: url("https://clouds03.github.io/BA-LUN_funeral/assets/img/${list[idx]}");
     background-size: cover;
     display: flex;
     flex-flow: column;
