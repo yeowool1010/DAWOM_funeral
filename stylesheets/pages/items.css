@@ -162,7 +162,6 @@ table.item-table td {
     scroll-behavior: smooth;
     display: block;
     margin: auto;
-    overflow-y: scroll;
 }
 
 .top-btn {

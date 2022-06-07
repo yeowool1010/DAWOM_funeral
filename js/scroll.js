@@ -9,9 +9,15 @@ $(document).ready(function () {
         var scrollTop = $(window).scrollTop();
         var obj_position = scrollTop + tmp + "px";
 
-        $("#move-nav").stop().animate({
-            "top": obj_position
-        }, 500);
+        if(scrollTop >= 650) {
+            $("#move-nav").show(350)
+            $("#move-nav").css("display", "flex");
 
+            $("#move-nav").stop().animate({
+                "top": obj_position
+            }, 500);
+        } else {
+            $("#move-nav").hide(350)
+        }
     }).scroll();
 });
