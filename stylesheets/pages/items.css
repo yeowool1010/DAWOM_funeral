@@ -92,12 +92,11 @@
 .item-name-box {
     height: 120px;
     width: 100%;
-    background-image: url("https://postfiles.pstatic.net/MjAyMjA2MDNfMjkw/MDAxNjU0MjUyNzk2ODA4.pk1Th_P5aHKMlBfk6yBSINEanKAQT30GEYfyCjl-8XUg.1CNqiDs2V0oNGZqAlcZLSQhCptqTk7nN57crK1Wca_Ag.PNG.qyoong3579/tilte-back.png?type=w773");
+    background-image: url("../../assets/img/tilte-back.png");
     background-size: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
-    /* box-shadow: 0px 5px 20px gray; */
     margin-bottom: 50px;
 }
 .item-name {
@@ -165,11 +164,6 @@ table.item-table td {
     margin: auto;
     overflow-y: scroll;
 }
-/* #itme_1 {
-    height: 100%;
-    padding-top:20px;
-} */
-
 
 .top-btn {
     margin-top: 20px;
