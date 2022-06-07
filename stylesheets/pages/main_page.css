@@ -97,7 +97,7 @@ button[class*="btn"] {border: 0;}
 
 .main-paig {
     height: 330px;
-    background-image: url(https://postfiles.pstatic.net/MjAyMjA2MDNfMTU1/MDAxNjU0MjUyNTQzOTkw.IwyV1P-UE9Jz5vCDde-ERGx4lAOy4lQzQdQYQzlWRWIg.WgF_bviSXQJejlvPdOI7_gP0ookHKQ_p19BXY89oAWEg.JPEG.qyoong3579/family.jpg?type=w773);
+    background-image: url("../../assets/img/family.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
