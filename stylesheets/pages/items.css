@@ -50,7 +50,11 @@
     position:relative 
 } */
 
-
+#item_1 {
+    width: 100%;
+    height: 100px;
+    margin-top: 400px;
+}
 
 .item-inner_1 {
     background-image: url("../../assets/img/item_1.jpg");
