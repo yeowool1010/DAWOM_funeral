@@ -42,18 +42,10 @@
     cursor: pointer;
     transition: all .3s ease 
 }
-/* .item-inner :hover {
-    color:#39d9c8; 
-    transition:all .3s ease
-}
-.item-inner > span { 
-    position:relative 
-} */
 
 #item_1, #item_2, #item_3, #item_4, #company-info-move {
     width: 100%;
     height: 100px;
-    margin-top: 400px;
 }
 
 .item-inner_1 {
