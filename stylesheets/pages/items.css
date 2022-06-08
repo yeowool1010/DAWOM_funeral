@@ -50,7 +50,7 @@
     position:relative 
 } */
 
-#item_1 {
+#item_1, #item_2, #item_3, #item_4, #company-info-move {
     width: 100%;
     height: 100px;
     margin-top: 400px;
