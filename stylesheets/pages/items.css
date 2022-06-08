@@ -87,14 +87,20 @@
 }
 .item-name-box {
     height: 120px;
-    width: 100%;
-    background-image: url("../../assets/img/tilte-back.png");
-    background-size: auto;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.item-name-text {
+    height: 120px;
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-bottom: 50px;
 }
+.item-name-sgv {
+    height: 100px;
+}
+
 .item-name {
     font-size: 30pt;
     color: #1A132F;

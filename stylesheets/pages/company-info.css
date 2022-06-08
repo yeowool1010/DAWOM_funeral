@@ -6,7 +6,7 @@
     flex-flow: column;
     align-items: center;
 }
-.company-title-box {
+/* .company-title-box {
     height: 120px;
     width: 100%;
     background-image: url("../../assets/img/clouds03.jpg");
@@ -19,9 +19,9 @@
     z-index: 0;
 }
 .company-name {
-    /* color: #fdf3f5; */
+    color: #fdf3f5;
     font-size: 20pt;
-}
+} */
 .company-text-box {
     height: 300px;
     width: 1000px;
