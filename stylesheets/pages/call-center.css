@@ -10,25 +10,44 @@
 
 .call-center-title {
     font-size: 30pt;
+    font-family: 'WooridaumB';
     color: black;
     display: flex;
     justify-content: center;
 }
-.call-and-talk-big-box {
-    width: 400px;
-    height: 250px;
-    display: flex;
-    align-content: space-between;
-}
 .call-and-talk-inner-box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.call, .talk {
     width: 200px;
     height: 300px;
     display: flex;
+} 
+.call-and-talk {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
     flex-flow: column;
     align-items: center;
+    align-content: space-between;
     cursor: pointer;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+     transition: all 0.3s ease;
+}
+.call-and-talk:hover {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0, 34, 255, 0.1),
+     4px 4px 5px 0px rgba(0, 34, 255, 0.1);
+     /* width: 250px;
+     height: 350px;   왜 세로만 늘어날까? */
 }
 .img {
+    margin-top: 25px;
     width: 150px;
     height: 150px;
 }
@@ -36,7 +55,7 @@
     fill: palevioletred;
 }
 .talk-img {
-    fill: darkgoldenrod;
+    fill: rgb(255, 203, 13);
 }
 .call-name-box {
     width: 150px;
@@ -45,10 +64,79 @@
 .call-and-talk-name {
     font-family: 'WooridaumB';
     font-size: 20pt;
+    transition: all 0.3s ease;
 }
-
+.call-and-talk-name:hover {
+    color: #000;
+}
+/* ////// */
 button {
     padding: 0;
     border: none;
     background: none;
 }
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+  }
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .custom-btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+
+.btn-16 {
+    border: none;
+    color: #000;
+  }
+  .btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .btn-16:hover {
+    width: 200px;
+    height: 300px;
+    color: #000;
+  }
+  .btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-16:active {
+    top: 2px;
+  }

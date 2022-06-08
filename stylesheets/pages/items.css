@@ -14,8 +14,9 @@
 .item-name-hover {
     display: none;
     background-color: rgba(0,0,0,0.3);
+    background-size: cover;
     color: white;
-    padding: 62px;
+    padding: 10px;
 }
 .hover:hover .item-name-hover {
     display: block;
@@ -31,6 +32,7 @@
 }
 .itme-name-hover-text {
     font-size: 15pt;
+    line-height: 25px;
 }
 .btn-item-price {
     font-size: 30pt;
