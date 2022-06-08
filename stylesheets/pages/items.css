@@ -100,7 +100,8 @@
     align-items: center;
 }
 .item-name-sgv {
-    height: 100px;
+    height: 120px;
+    width: 300px;
 }
 
 .item-name {
@@ -114,6 +115,7 @@
     color: #F10086;
     margin: 0;
     padding-top: 7px;
+    font-family: 'WooridaumB';
 }
 
 table.item-table {

@@ -118,6 +118,7 @@ button[class*="btn"] {border: 0;}
     color: #001D6E;
     font-size: 17pt;
     margin-left: 30px;
+    /* font-family: 'WooridaumB'; */
 }
 .main-text {
   margin: 15px;
