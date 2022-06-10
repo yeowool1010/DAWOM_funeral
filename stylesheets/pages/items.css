@@ -219,3 +219,19 @@ table.item-table td {
     -webkit-transform: scale(1.1,1.1);
     box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
   }
+.media-title-img {
+    height: 70px;
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .item-name-sgv {
+        display: none;
+    }
+    .media-title-img {
+        display: block;
+    }
+    .item-name-box {
+        height: 200px;
+    }
+}
