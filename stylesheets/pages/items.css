@@ -123,6 +123,10 @@
     padding-top: 7px;
     font-family: 'WooridaumB';
 }
+.item-table {
+    display: flex;
+    flex-direction: column;
+}
 
 table.item-table {
     border-collapse: collapse;
@@ -140,7 +144,7 @@ table.item-table thead th {
     border-bottom: 3px solid #036;
 }
 table.item-table tbody th {
-    width: 230px;
+    width: 250px;
     font-size: 15pt;
     padding: 10px;
     font-weight: bold;
@@ -154,6 +158,10 @@ table.item-table td {
     vertical-align: inherit;
     border-bottom: 1px solid #ccc;
     padding: 10px;
+}
+.table-box {
+    display: flex;
+    flex-direction: column;
 }
 
 .item-info {
@@ -241,3 +249,7 @@ table.item-table td {
         height: 200px;
     }
 }
+
+/* @media screen and {
+    
+} */

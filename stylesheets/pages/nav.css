@@ -9,7 +9,7 @@
     border: 1px solid #dddddd;
     background-color: #ddd;
     z-index: 1;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 950px) {
     #move-nav {
-        /* display: block; */
+        display: none;
         
     }
 }
