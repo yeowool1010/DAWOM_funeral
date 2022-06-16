@@ -268,12 +268,6 @@ table.item-table td {
     }
 }
 
-@media screen and (max-width: 610px) {
-    .nav__list {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 550px) {
     .item-inner {
         border-radius: 50%;
@@ -305,16 +299,5 @@ table.item-table td {
         padding-top: 23px;
     }
 
-    .main-text-box {
-        font-size: 13pt;
-    }
-    .main-text {
-        display: flex;
-        justify-content: center;
-    }
-    .container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+
 }

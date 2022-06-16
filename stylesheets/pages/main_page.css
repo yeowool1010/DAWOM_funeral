@@ -13,9 +13,6 @@ a {
     color: black;
 }
 
-
-
-
 .main-paig {
     height: 330px;
     background-image: url("../../assets/img/family.jpg");
@@ -35,77 +32,15 @@ a {
     color: black;
     font-size: 17pt;
     margin-left: 30px;
-    /* font-family: 'WooridaumB'; */
 }
 .main-text {
   margin: 15px;
 }
 
-/* .call-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    font-weight: 800;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'WooridaumB';
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    z-index: 0;
-    margin-left: 10px;
-  }
-
-  .call-btn {
-    background: rgb(255,151,0);
-    border: none;
-    z-index: 0;
-  }
-  .call-btn:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 5px;
-    background-color: #eaf818;
-    background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    transition: all 0.3s ease;
-  }
-  .call-btn:hover {
-    color: #000;
-    font-weight: 600;
-  }
-  .call-btn:hover:after {
-    top: auto;
-    bottom: 0;
-    height: 100%;
-  }
-  .call-btn:active {
-    top: 2px;
-  } */
 
 
   .container {
     margin-left: 10px;
-    /* padding-top: 1em;
-    margin-top: 1em;
-    border-top: 
-      solid
-      1px
-      #CCC; */
   }
   a.button {
     display: block;
@@ -133,4 +68,30 @@ a {
   }
   .btnLightBlue.btnPush:hover {
     box-shadow: 0px 0px 0px 0px #1E8185;
+  }
+
+  @media screen and (max-width:550px) {
+    
+    .main-text-box {
+      width: 80%;
+      height: 155px;
+      border-radius: 5%;
+      display: flex;
+      justify-content: flex-end;
+      flex-flow: column;
+      font-size: 13pt;
+      background-color: rgba(15, 15, 15, 0.5);
+      margin: 0;
+    }
+    .main-text {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      color: #FFF;
+    }
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
