@@ -60,5 +60,8 @@
         align-items: flex-start;
         padding: 8px 24px;
     }
+    .nav-bar {
+        display: none;
+    }
     
 }

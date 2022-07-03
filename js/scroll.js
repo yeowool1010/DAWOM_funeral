@@ -21,3 +21,9 @@ $(document).ready(function () {
         }
     }).scroll();
 });
+
+if (matchMedia("screen and (min-width: 1024px)").matches) {
+    // 1024px 이상에서 사용할 JavaScript
+  } else {
+    // 1024px 미만에서 사용할 JavaScript
+  }
