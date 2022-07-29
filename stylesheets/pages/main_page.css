@@ -14,12 +14,12 @@ a {
 }
 
 .main-paig {
-    height: 330px;
+    height: 412px;
     background-image: url("../../assets/img/family.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     z-index: 0;
     margin-top: 100px;
 }
@@ -32,6 +32,7 @@ a {
     color: black;
     font-size: 17pt;
     margin-left: 30px;
+    padding-top: 50px;
 }
 .main-text {
   margin: 15px;
@@ -81,8 +82,9 @@ a {
       flex-flow: column;
       font-size: 13pt;
       background-color: rgba(15, 15, 15, 0.5);
-      margin-top: 50px;
+      margin-top: 95px;
       margin-left: 0px;
+      padding: 0;
     }
     .main-text {
       margin: 10px;
@@ -95,4 +97,6 @@ a {
       display: flex;
       justify-content: center;
     }
+    .main-paig {
+      justify-content: center;
   }
