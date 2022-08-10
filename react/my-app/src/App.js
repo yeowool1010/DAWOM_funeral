@@ -24,5 +24,3 @@ function App() {
 
 export default App;
 
-
-2022.08.11_기존 프로젝트 리액트로 다시 시작하기
